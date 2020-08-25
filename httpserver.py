@@ -1,5 +1,5 @@
 """
-- CS2911 - <your section number>
+- CS2911 - 001
 - Fall 2020
 - Lab 6
 - Names:
