@@ -3,8 +3,8 @@
 - Fall 2020
 - Lab 6
 - Names:
-  - <your name>
-  - <your partner's name>
+  - Sean Lang
+  - Sean Lang's Clone
 
 A simple HTTP server
 """
