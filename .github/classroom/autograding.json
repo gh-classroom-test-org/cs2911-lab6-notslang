@@ -1,0 +1,164 @@
+{
+  "tests": [
+    {
+      "name": "httpserver.py compiles",
+      "setup": "",
+      "run": "python -m py_compile httpserver.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Provided utility functions are not broken",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_mime_type",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Provided utility functions are not broken",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_file_size",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 0
+    },
+    {
+      "name": "Student put name on assignment",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_names_in_docstring",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the status line when making a successful request to the index file",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_status_line_ok",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the status line when making an unsuccessful request.",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_status_line_missing",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the Connection header",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_connection_header",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the existance of the Content-Length header",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_content_length_header",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the Content-Type header",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_content_type_header",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks the existance of the Date header",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_date_header",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Checks that the content of the page is returned",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file_response_content",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Check that the root URL gets resolved to /index.html and parse the full response",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_root_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Check that /index.html works and parse the full response",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_index_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Check that /style.css works and parse the full response",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_css_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Check that /e-sebern2.gif works and parse the full response",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_gif_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    },
+    {
+      "name": "Check that /sebern1.jpg works and parse the full response",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest -k test_get_jpg_file",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 1
+    }
+  ]
+}
